@@ -1,0 +1,417 @@
+.firstlayer {
+  overflow: hidden;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 26px 42px;
+  justify-content: center;
+  align-items: center;
+  background-color: #723e30;
+}
+
+.secondlayer {
+  width: 100%;
+  height: 100%;
+  background: #bc7e6d;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 84px;
+  border-radius: 4%;
+}
+
+.thirdlayer {
+  width: 100%;
+  height: 90%;
+  border-radius: 4%;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  animation: glitch 1s steps(2) infinite, textShadow 1.6s infinite;
+}
+
+@keyframes textShadow {
+  0% {
+    text-shadow: 0.4389924193300864px 0 1px #502e27, -0.4389924193300864px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  5% {
+    text-shadow: 2.7928974010788217px 0 1px #502e27, -2.7928974010788217px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  10% {
+    text-shadow: 0.02956275843481219px 0 1px #502e27, -0.02956275843481219px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  15% {
+    text-shadow: 0.40218538552878136px 0 1px #502e27, -0.40218538552878136px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  20% {
+    text-shadow: 3.4794037899852017px 0 1px #502e27, -3.4794037899852017px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  25% {
+    text-shadow: 1.6125630401149584px 0 1px #502e27, -1.6125630401149584px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  30% {
+    text-shadow: 0.7015590085143956px 0 1px #502e27, -0.7015590085143956px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  35% {
+    text-shadow: 3.896914047650351px 0 1px #502e27, -3.896914047650351px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  40% {
+    text-shadow: 3.870905614848819px 0 1px #502e27, -3.870905614848819px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  45% {
+    text-shadow: 2.231056963361899px 0 1px #502e27, -2.231056963361899px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  50% {
+    text-shadow: 0.08084290417898504px 0 1px #502e27, -0.08084290417898504px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  55% {
+    text-shadow: 2.3758461067427543px 0 1px #502e27, -2.3758461067427543px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  60% {
+    text-shadow: 2.202193051050636px 0 1px #502e27, -2.202193051050636px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  65% {
+    text-shadow: 2.8638780614874975px 0 1px #502e27, -2.8638780614874975px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  70% {
+    text-shadow: 0.48874025155497314px 0 1px #502e27, -0.48874025155497314px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  75% {
+    text-shadow: 1.8948491305757957px 0 1px #502e27, -1.8948491305757957px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  80% {
+    text-shadow: 0.0833037308038857px 0 1px #502e27, -0.0833037308038857px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  85% {
+    text-shadow: 0.09769827255241735px 0 1px #502e27, -0.09769827255241735px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  90% {
+    text-shadow: 3.443339761481782px 0 1px #502e27, -3.443339761481782px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  95% {
+    text-shadow: 2.1841838852799786px 0 1px #502e27, -2.1841838852799786px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+
+  100% {
+    text-shadow: 2.6208764473832513px 0 1px #502e27, -2.6208764473832513px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+  }
+}
+
+@keyframes glitch {
+  from {
+
+    background: url("https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FLanding%2Fbackgrounds%2FZEITGEIST(BOLD).png?alt=media&token=bc604dd0-ca91-492f-8b2d-2c7ad3710e95") #e5d1c6 center no-repeat;
+    background-size: cover;
+  }
+
+  to {
+    background: url("https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FLanding%2Fbackgrounds%2FZEITGEIST.png?alt=media&token=d7e4b8f0-2bed-494b-9f73-264fd01e7509") #e5d1c6 center no-repeat;
+    background-size: cover;
+
+  }
+}
+
+
+.thirdlayer::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 3px, 10px 100%;
+  pointer-events: none;
+}
+
+.thirdlayer::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flickering 0.15s infinite;
+}
+
+@keyframes flickering {
+  0% {
+    opacity: 0.27861;
+  }
+
+  20% {
+    opacity: 0.34769;
+  }
+
+  40% {
+    opacity: 0.23604;
+  }
+
+  60% {
+    opacity: 0.90626;
+  }
+
+  80% {
+    opacity: 0.18128;
+  }
+
+  100% {
+    opacity: 0.83891;
+  }
+}
+
+.thirdlayer>img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#zeitgeist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#zeitgeist2 {
+  height: 75%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  justify-content: center;
+}
+
+.window {
+  width: 65vmin;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 1.25/1;
+}
+
+.menu-bar {
+  height: 18%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FLanding%2Fresources%2FGroup%203662.png?alt=media&token=4a6e724c-76ff-4f6f-b012-545ea73b6219");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 29% 12% 1fr 25%;
+}
+
+.top>div {
+  height: 80%;
+  align-items: end;
+}
+
+.current {
+  grid-column-start: 1;
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.current>img {
+  width: 8%;
+}
+
+.new-tab {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.new-tab>img {
+  width: 20%;
+}
+
+.btns {
+  grid-column-start: 4;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  justify-content: flex-end;
+}
+
+.btns>img {
+  width: 50%;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.navigation>img:first-child {
+  width: 40%;
+}
+
+.navigation>img:last-child {
+  width: 15%;
+}
+
+.url-bar {
+  height: 60%;
+  background-color: #F8F2D8;
+  border: 2px solid #443A36;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.url-bar>img {
+  width: 6%;
+  padding-right: 5px;
+}
+
+.content-section {
+  translate: 0 -4px;
+  height: 82.7%;
+  width: 100%;
+  background-color: #E6D6B5;
+  box-shadow: inset 0 0 0 4px #443A36;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
+.z {
+  color: #723e30;
+  text-shadow: 2px 2px 0px #443a36;
+  font-family: Wanters;
+  font-size: 12vmin;
+  font-weight: 400;
+  position: relative;
+  height: fit-content;
+}
+
+.z::before {
+  content: "2023";
+  position: absolute;
+  /* z-index: -1; */
+  right: 0;
+  color: #bc7e6d;
+  text-shadow: 1px 2px 0px #443a36;
+  font-family: Wanters;
+  font-size: 4.5vmin;
+  font-weight: 400;
+}
+
+.buttonlayer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  width: 40vw;
+  gap: 1vw;
+}
+
+.url {
+  color: #000;
+  font-family: Ubuntu Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 48px;
+  left: 280px;
+  z-index: 2;
+}
+
+.url:hover {
+  text-decoration: underline 1px;
+  text-transform: uppercase;
+}
+
+.export {
+  height: 134px;
+}
+
+@media screen and (max-width:768px) {
+  .secondlayer {
+    background: none;
+    padding: 0;
+  }
+
+  .firstlayer {
+    background: #e5d1c6;
+    padding: 0;
+  }
+
+  .thirdlayer {
+    background: none;
+    animation: none;
+  }
+  .thirdlayer::before {
+    animation: none;
+    background: none;
+  }
+  .thirdlayer::after {
+    animation: none;
+    background: none;
+  }
+
+  .content-section {
+    box-shadow: inset 0 0 0 2px #443A36;
+  }
+
+  .thirdlayer>img {
+    display: none;
+  }
+
+  .buttonlayer {
+    display: none;
+  }
+
+  .firstlayer {
+    animation: glitch 0.5s steps(3) infinite;
+  }
+}

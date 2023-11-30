@@ -1,0 +1,21 @@
+{
+    "testimonials": [
+        {
+            "name": "Amit Yadav",
+            "college": "Chandigarh University, Chandigarh",
+            "description": "    I had the chance to be a Campus Ambassador for IIT Ropar's Zeitgeist, and it was an amazing experience. I worked with some really talented people, which helped me improve my practical skills a lot. My main job was to promote the festival in my college, and I was seriously impressed by how well the organizers managed everything. Seeing them handle such a big event and a big team like ours was impressive. I want to say a big thank you to the whole Zeitgeist team for giving me this opportunity."
+        },
+
+        {
+            "name": "Guruprasad Pathak",
+            "college": "PCCOE, Pune",
+            "description": "    Being a campus ambassador for IIT Ropar's Zeitgeist was a game-changer for me. I'm a BTech student, and this experience went beyond textbooks. It taught me practical skills in promoting events, working in a team, and effective communication. Zeitgeist opened up a world of diverse talents and experiences, making my college journey incredibly fulfilling. I highly recommend it to my fellow students for an enriching, hands-on experience."
+        },
+
+        {
+            "name": "Sanjeevni Lakade",
+            "college": "IIIT, Vadodara",
+            "description": "    I had a blast being a campus ambassador for IIT Ropar's Zeitgeist. It was a great opportunity to showcase my leadership and networking skills. I enjoyed connecting with students from different colleges and inviting them to join the festival. I also appreciated the guidance and feedback from the organizers, who were very professional and friendly. Zeitgeist was more than just a cultural festival, it was a community of passionate and talented people. I am grateful to the Zeitgeist team for this amazing experience."
+        }
+    ]
+}

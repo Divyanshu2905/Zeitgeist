@@ -1,0 +1,33 @@
+@font-face{
+  font-family: "Wanters";
+  src: url("https://db.onlinewebfonts.com/t/942b9731c32fbbde4d7652c4cbb48559.eot");
+  src: url("https://db.onlinewebfonts.com/t/942b9731c32fbbde4d7652c4cbb48559.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/942b9731c32fbbde4d7652c4cbb48559.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/942b9731c32fbbde4d7652c4cbb48559.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/942b9731c32fbbde4d7652c4cbb48559.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/942b9731c32fbbde4d7652c4cbb48559.svg#The Wanters DEMO")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar{
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: var(--darkestt, #723E30);
+}
+
+*::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background: var(--light1, #e6d6b55d);
+}
+
+#root {
+  overflow-x: hidden;
+}

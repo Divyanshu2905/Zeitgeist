@@ -1,0 +1,231 @@
+
+.firstlayer {
+  overflow: hidden;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 26px 42px;
+  justify-content: center;
+  align-items: center;
+  background-color: #723e30;
+}
+
+.secondlayer {
+  width: 100%;
+  height: 100%;
+  background: #bc7e6d;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 84px;
+  border-radius: 4%;
+}
+
+.thirdlayer {
+  width: 100%;
+  height: 90%;
+  border-radius: 50px;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: url("https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FLanding%2Fbackgrounds%2FZEITGEIST.png?alt=media&token=9f72c330-97c0-4eb8-8afe-dcc1a08016fc") #e5d1c6 center no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.thirdlayer>img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#zeitgeist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#zeitgeist2 {
+  height: 75%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  justify-content: center;
+}
+.window{
+  width: 60vmin;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 1.25/1;
+}
+.menu-bar{
+  height: 18.3%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FLanding%2Fresources%2FGroup%203662.png?alt=media&token=4a6e724c-76ff-4f6f-b012-545ea73b6219");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.top{
+  display: grid;
+  grid-template-columns: 29% 12% 1fr 25%;
+}
+.current{
+  grid-column-start: 1;
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.current>img{
+  width: 8%;
+}
+.new-tab{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.new-tab>img{
+  width: 20%;
+  padding-bottom: 8px;
+}
+.btns{
+  grid-column-start: 4;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  justify-content: flex-end;
+}
+.btns>img{
+  width: 50%;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  align-items: center;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.navigation>img:first-child{
+  width: 40%;
+}
+.navigation>img:last-child{
+  width: 15%;
+}
+
+.url-bar{
+  height: 70%;
+  background-color: #F8F2D8;
+  border: 2px solid #443A36;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.url-bar>img{
+  width: 8%;
+  padding-right: 5px;
+}
+
+.content-section{
+  translate: 0 -4px;
+  height: 82.7%;
+  width: 100%;
+  background-color: #E6D6B5;
+  box-shadow: inset 0 0 0 4px #443A36;
+}
+
+.z {
+  color: #723e30;
+  text-shadow: 2px 2px 0px #443a36;
+  font-family: Wanters;
+  font-size: 12vmin;
+  font-weight: 400;
+  position: relative;
+  height: fit-content;
+}
+
+.z::before {
+  content: "2023";
+  position: absolute;
+  /* z-index: -1; */
+  right: 0;
+  color: #bc7e6d;
+  text-shadow: 1px 2px 0px #443a36;
+  font-family: Wanters;
+  font-size: 4.5vmin;
+  font-weight: 400;
+}
+
+.buttonlayer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  width: 40vw;
+  gap: 1vw;
+}
+
+.url {
+  color: #000;
+  font-family: Ubuntu Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 48px;
+  left: 280px;
+  z-index: 2;
+}
+
+.url:hover{
+  text-decoration: underline 1px;
+  text-transform: uppercase;
+}
+
+.export{
+  height: 134px;
+}
+
+@media screen and (max-width:768px) {
+  .secondlayer{
+    background: none;
+  }
+  .firstlayer{
+    background: #e5d1c6;
+  }
+  .thirdlayer{
+    background: none;
+  }
+  .thirdlayer>img{
+    display: none;
+  }
+  .buttonlayer{
+    display: none;
+  }
+  .firstlayer{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zeitgeist-23.appspot.com/o/Resources%2FLanding%2Fbackgrounds%2FZEITGEIST.png?alt=media&token=9f72c330-97c0-4eb8-8afe-dcc1a08016fc");
+    background-blend-mode: hard-light;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
